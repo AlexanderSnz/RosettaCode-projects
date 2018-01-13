@@ -8,7 +8,7 @@ int main(int argc, char* argv[])
 {
 	if(argc != 2)
 	{
-		std::cout << "usage: <path>\n";
+		std::cout << "usage: mkdir <path>\n";
 		return -1;
 	}
 
