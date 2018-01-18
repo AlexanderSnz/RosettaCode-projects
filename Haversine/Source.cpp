@@ -2,6 +2,7 @@
 #define _USE_MATH_DEFINES
 
 #include <math.h>
+#include <iostream>
 
 const static double EarthRadiusKm = 6372.8;
 
@@ -51,5 +52,6 @@ int main()
 	Coordinate c1(36.12, -86.67);
 	Coordinate c2(33.94, -118.4);
 
-	double d2 = HaversineDistance(c1, c2);
+	std::cout << "Distance = " << HaversineDistance(c1, c2) << std::endl;
+	return 0;
 }
