@@ -9,6 +9,13 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Haversine", "Haversine\Have
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestIntegerness", "TestIntegerness\TestIntegerness.vcxproj", "{5BAB8E06-8B76-43F7-BAB4-CFA669683693}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1EE5528E-20D8-4CB7-9C01-892847715C2A}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ISIN-Validate", "ISIN-Validate\ISIN-Validate.vcxproj", "{25955CE5-D9BE-4FAD-9A21-BE49FA312ED8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +48,14 @@ Global
 		{5BAB8E06-8B76-43F7-BAB4-CFA669683693}.Release|x64.Build.0 = Release|x64
 		{5BAB8E06-8B76-43F7-BAB4-CFA669683693}.Release|x86.ActiveCfg = Release|Win32
 		{5BAB8E06-8B76-43F7-BAB4-CFA669683693}.Release|x86.Build.0 = Release|Win32
+		{25955CE5-D9BE-4FAD-9A21-BE49FA312ED8}.Debug|x64.ActiveCfg = Debug|x64
+		{25955CE5-D9BE-4FAD-9A21-BE49FA312ED8}.Debug|x64.Build.0 = Debug|x64
+		{25955CE5-D9BE-4FAD-9A21-BE49FA312ED8}.Debug|x86.ActiveCfg = Debug|Win32
+		{25955CE5-D9BE-4FAD-9A21-BE49FA312ED8}.Debug|x86.Build.0 = Debug|Win32
+		{25955CE5-D9BE-4FAD-9A21-BE49FA312ED8}.Release|x64.ActiveCfg = Release|x64
+		{25955CE5-D9BE-4FAD-9A21-BE49FA312ED8}.Release|x64.Build.0 = Release|x64
+		{25955CE5-D9BE-4FAD-9A21-BE49FA312ED8}.Release|x86.ActiveCfg = Release|Win32
+		{25955CE5-D9BE-4FAD-9A21-BE49FA312ED8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
